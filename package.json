@@ -1,0 +1,43 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "nodemon ./index.js --exec babel-node -e js",
+    "start": "babel-node index.js"
+  },
+  "author": "Siamack Seifi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.1",
+    "ejs": "^2.6.1",
+    "express": "^4.15.4",
+    "express-fileupload": "^0.4.0",
+    "google-distance-api": "^1.0.0",
+    "jalali-moment": "^3.3.1",
+    "json-stringify-safe": "^5.0.1",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^4.13.18",
+    "mysql": "^2.16.0",
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.12.0",
+    "path": "^0.12.7",
+    "pbkdf2": "^3.0.16",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.0",
+    "rucaptcha-solver": "^1.1.6",
+    "sync-request": "^6.1.0",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
